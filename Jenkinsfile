@@ -16,5 +16,6 @@ pipeline {
 		sh 'mvn snyk:test -fn'
 	      }
              }
+    }
 }
 }
